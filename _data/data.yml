@@ -171,12 +171,6 @@ publications:
     authors: Vsevolod Mineev
     conference: Imperial College London, 2016
 
-projects:
-  - title: SimpleX Chat
-    link: https://github.com/simplex-chat/simplex-chat
-    details: |
-      the first messaging platform operating without user identifiers of any kind - 100% private by design!
-
 # Volunteerings
 volunteering:
   - time: 2022
