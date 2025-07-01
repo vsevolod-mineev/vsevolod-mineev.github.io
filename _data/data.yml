@@ -53,6 +53,17 @@ skills:
   - category: Backend
     skill: 
       - Python
+      - C#
+      - JavaScript
+      - Docker
+      - PowerShell
+      - Bash
+      - Flask
+      - OpenAI
+      - AWS
+      - Azure
+      - Google Cloud
+      - Power Automate
       - Torch
       - Tensorflow
       - Keras
@@ -60,20 +71,25 @@ skills:
       - Tesseract
       - SQL
       - MongoDB
-      - Google Cloud
       - Apache
       - Nginx
   - category: Frontend
     skill:
       - Django
       - Angular
+      - SharePoint
+      - PowerBI
+      - Tableau
       - HTML/CSS
       - JavaScript
       - Selenium
   - category: DevOps
     skill:
-      - AWS
       - Azure
+      - Xcode
+      - Android Studio
+      - AWS
+      - Google Cloud
       - Firebase
       - MixPanel
       - SendGrid
@@ -81,10 +97,15 @@ skills:
       - MailChimp
       - Git
       - Jira
+      - MSAL
+      - Docker
+    
   - category: Operating System
     skill: 
       - Windows
       - macOS
+      - Android
+      - iOS
       - Linux
 
 # Profile
@@ -93,8 +114,22 @@ profile: |
 
 # Experience
 experience:
+  - role: Senior Machine Learning Engineer
+    time: 2023-2025
+    company: Modus Consulting
+    details: |
+      <br>🔘 Led a team to develop secure dashboards integrating data from Microsoft Graph, SharePoint, PowerBI, Tableau and SQL Server to provide real-time project, task, and reporting insights.<br>
+      🔘 Engineered mobile applications for iOS and Android leveraging the Flutter ecosystem.<br>
+      🔘 Implemented robust authentication and token management with MSAL and OAuth2, while leveraging Azure Key Vault for secure secret management..<br>
+      🔘 Built sophisticated chat bots to aid enterprise transformation using Copilot Studios, Power Automate, Azure and OpenAI API.<br>
+      🔘 Lead the development of a Retrieval Augmented Generation (RAG) subsystem with OpenAI API and Neo4j as the database.<br>
+      🔘 Developed a suite of RESTful API endpoints to query and merge data from various sources, including Power Automate flows and custom SQL queries.<br>
+      🔘 Constructed deployment pipelines with Azure DevOps, Git and Docker.
+    technologies_used: | 
+      Python, jQuery, C#, Flutter, Dart, Xcode, Android Studios, Azure (Web Apps, Secure Key Vaults, EntraID, SQL Server, Functions, IAM, Document Services, Container Registries), OpenAI, Flask, MSAL, Microsoft Graph API, SharePoint REST API, Pandas, Power Automate, Copilot Studios.
+      
   - role: Administrative Associate
-    time: 2022-Present
+    time: 2022-2023
     company: Eataly
     details: |
       <br>🔘 Developed software infrastructure that is now utilised to process the vast majority of invoices for the London store. This has already onboarded more than £500,000 of incoming stock.<br>
