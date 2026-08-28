@@ -8,9 +8,9 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                {% if exp.link %}<a href="{{exp.link}}" target="_blank" rel="noopener">{{exp.company}}</a>{% else %}{{exp.company}}{% endif %}
                 <span class="time">{{exp.time}}</span>
-            </div> 
+            </div>
             <div class="details">{{exp.details|newline_to_br}}</div>
             <p class="technologies"><b>Technologies Used:</b> {{exp.technologies_used}}</p>
         </div>

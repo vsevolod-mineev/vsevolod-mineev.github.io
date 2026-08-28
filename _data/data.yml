@@ -1,6 +1,5 @@
 name: Sebastian Mineev
 support_dark_mode: true
-fork: true
 
 # Sidebar
 contact:
@@ -18,10 +17,11 @@ education:
   - degree: MSci in Theoretical Physics
     time: 2012-2016
     university: Imperial College London
+    link: https://www.imperial.ac.uk
 
 skills:
   - category: Scientific
-    skill: 
+    skill:
       - Physics
       - Mathematics
       - Quantum Computing
@@ -30,36 +30,45 @@ skills:
       - Neuroscience
       - Machine Learning
   - category: Financial & Legal
-    skill: 
+    skill:
       - Accounting
       - Payroll
       - Human Resources
       - Corporate Law
       - Crowdfunding
   - category: Marketing
-    skill: 
+    skill:
       - Advertising
       - E-commerce
       - Fundraising
       - Search Engine Optimisation
       - Content Creation
   - category: Logistic
-    skill: 
+    skill:
       - Stock Management
       - Courier Networks
       - Warehousing
       - International Shipping
       - Retail Replenishment
   - category: Backend
-    skill: 
+    skill:
       - Python
+      - Django
+      - FastAPI
+      - Celery
       - C#
       - JavaScript
+      - SQL
+      - PostgreSQL
+      - Supabase
+      - Stripe
+      - Redis
       - Docker
       - PowerShell
       - Bash
       - Flask
       - OpenAI
+      - Anthropic
       - AWS
       - Azure
       - Google Cloud
@@ -69,14 +78,20 @@ skills:
       - Keras
       - Haskell
       - Tesseract
-      - SQL
       - MongoDB
       - Apache
       - Nginx
   - category: Frontend
     skill:
+      - React
+      - TypeScript
       - Django
       - Angular
+      - Flutter
+      - React Native
+      - Dart
+      - Swift
+      - Kotlin
       - SharePoint
       - PowerBI
       - Tableau
@@ -99,9 +114,10 @@ skills:
       - Jira
       - MSAL
       - Docker
-    
+      - Kubernetes
+
   - category: Operating System
-    skill: 
+    skill:
       - Windows
       - macOS
       - Android
@@ -110,9 +126,26 @@ skills:
 
 # Profile
 profile: |
-  Seasoned software engineer with over ten years of experience, most recently at Modus Consulting where I led a cross-functional team to deliver secure enterprise transformation solutions, web dashboards, and mobile applications. I am the perfect candidate for those who are looking to tap into the world of AI-driven content, analytics and automation. Some of my notable achievements include founding and scaling a startup, whilst raising £430,000 from 409 investors across 17 countries.
+  Seasoned software engineer with over ten years of experience, most recently at QOVES where I rose from Senior Backend Engineer to Product Officer, delivering an AI facial analysis platform, Stripe billing and mobile companion apps end to end. I am the perfect candidate for those who are looking to tap into the world of AI-driven content, analytics and automation. Some of my notable achievements include founding and scaling a startup, whilst raising £430,000 from 409 investors across 17 countries.
 # Experience
 experience:
+  - role: Product Officer
+    time: 2025-Present
+    company: QOVES
+    link: https://qoves.com
+    details: |
+      <br>🔘 Joined as Senior Backend Engineer; promoted to Product Officer.<br>
+      🔘 Designed, built and shipped Face Intelligence, QOVES's AI facial analysis SaaS, end to end (97% of commits): a FastAPI backend with 53 REST endpoints, a React and TypeScript frontend, a Django admin portal, Celery and Redis pipelines and Supabase Postgres, gated by 125 CI tests.<br>
+      🔘 Engineered its computer vision pipeline: MediaPipe face mesh fused with in-house models, iris-calibrated measurement, 61 facial metrics, 382 simulated procedures and Claude analysis.<br>
+      🔘 Implemented Stripe billing end to end: subscription checkout, billing portal, pause and resume flows and signature-verified webhooks; designed the multi-tier pricing with a one-time premium tier and add-ons.<br>
+      🔘 Developed iOS and Android companion apps across two generations: Flutter onboarding with QR invite scanning and photo upload, then React Native with Swift and Kotlin native modules for on-device face detection.<br>
+      🔘 Containerised the platform into seven Docker services with health checks and resource caps.<br>
+      🔘 Discovered and reported vulnerabilities affecting QOVES's Kubernetes clusters, including a cross-tenant data exposure flaw; assessed severity and implications, and guided remediation within the hour.<br>
+      🔘 Hardened the platform edge with CSP and HSTS security headers, request rate limiting and fail-fast secret validation.<br>
+      🔘 As Product Officer, set product and technical direction: stack decisions, specifications and engineering roadmaps, plus internal tools including a real-time revenue and operations dashboard on live Stripe data.
+    technologies_used: |
+      Python, Django, FastAPI, Celery, Stripe, Supabase, PostgreSQL, Redis, React, TypeScript, React Native, Expo, Flutter, Swift, Kotlin, Docker, Kubernetes, AWS, Nginx, MediaPipe, OpenCV, Anthropic Claude.
+
   - role: Senior Machine Learning Engineer
     time: 2023-2025
     company: Modus Consulting
@@ -124,12 +157,13 @@ experience:
       🔘 Lead the development of a Retrieval Augmented Generation (RAG) subsystem with OpenAI API and Neo4j as the database.<br>
       🔘 Developed a suite of RESTful API endpoints to query and merge data from various sources, including Power Automate flows and custom SQL queries.<br>
       🔘 Constructed deployment pipelines with Azure DevOps, Git and Docker.
-    technologies_used: | 
+    technologies_used: |
       Python, jQuery, C#, Flutter, Dart, Xcode, Android Studios, Azure (Web Apps, Secure Key Vaults, EntraID, SQL Server, Functions, IAM, Document Services, Container Registries), OpenAI, Flask, MSAL, Microsoft Graph API, SharePoint REST API, Pandas, Power Automate, Copilot Studios.
-      
+
   - role: Administrative Associate
     time: 2022-2023
     company: Eataly
+    link: https://www.eataly.co.uk
     details: |
       <br>🔘 Developed software infrastructure that is now utilised to process the vast majority of invoices for the London store. This has already onboarded more than £500,000 of incoming stock.<br>
       🔘 Received and oversaw all transfers for a large food court of three restaurants, a market, a cafeteria, a bakery, a winery and multiple fresh counters.<br>
@@ -137,33 +171,35 @@ experience:
       🔘 Digitalised central kitchen transfers.<br>
       🔘 Enforced accurate stock control.<br>
       🔘 Worked with suppliers to perform returns, report missing stock, and address discrepancies.
-    technologies_used: | 
+    technologies_used: |
       Python, Microsoft Dynamics, PowerBI, Selenium.
-  
+
   - role: Business Development Manager
     time: 2022-2022
     company: First4Freelancers
+    link: https://first4freelancers.co.uk
     details: |
       <br>🔘 Grew the new facilities management branch of the business from a handful of employees to a team numbering more than 30 people. Advertised, recruited, trained and managed.<br>
       🔘 Worked closely with senior decision makers to establish new revenue streams for the company.<br>
       🔘 Oversaw and developed analytic, data automation and data processing infrastructure.<br>
       🔘 Integrated various functional into our Content Management System (CMS).
-    technologies_used: | 
+    technologies_used: |
       Google Ads, Google Analytics, Wix, Semrush, Sendgrid, Twillio.
 
   - role: Co-Founder, CAO and Hype Weaver
     time: 2016-2021
     company: Clouder
+    link: https://europe.republic.com/clouder1
     details: |
       <br>🔘 Founded the company along with two friends during my final university year.<br>
       🔘 Was at the helm of marketing, software engineering, analytic, fundraising, legal, logistic and customer service aspects of running a company.<br>
       🔘 Raised £430,000 from 409 investors in 17 countries.<br>
       🔘 Developed and brought to market a subscription service, marketplace, 1hr delivery, store locator and a wholesale platform.<br>
       🔘 Was personally responsible for signing-up the first 100 merchants to join our platform. This included retail chains, manufacturers and wholesalers.<br>
-      🔘 Executed two successful crowdfunding campaigns at multimillion valuations on Seedrs being instrumental to both subscribing the round and producing all the required material in the form of crowdfunding videos, media assets, financial accounts, team memorandums and presentations for fundraising events.<br>
+      🔘 Executed two successful crowdfunding campaigns at multimillion valuations on <a href="https://europe.republic.com/clouder1" target="_blank" rel="noopener">Seedrs</a> being instrumental to both subscribing the round and producing all the required material in the form of crowdfunding videos, media assets, financial accounts, team memorandums and presentations for fundraising events.<br>
       🔘 Organised large teams to attend trade shows, tackle field marketing and support our partner stores. Developed order management, stock management and invoicing functional.
-    technologies_used: | 
-      Jira, AWS, MongoDB, Google Analytics, MixPanel, Google Ads, Intercom, FullStory, Salesforce and Stuart. 
+    technologies_used: |
+      Jira, AWS, MongoDB, Google Analytics, MixPanel, Google Ads, Intercom, FullStory, Salesforce and Stuart.
 
 publications:
   - title: Datamining the laws of Physics with Deep Neural Networks.
@@ -175,6 +211,7 @@ publications:
 volunteering:
   - time: 2022
     role: Fundraiser
-    company: Centerpoint
+    company: Centrepoint
+    link: https://centrepoint.org.uk
     details: |
-      Centrepoint is a charity in the United Kingdom which provides accommodation and support to homeless people aged 16–25. 
+      Centrepoint is a charity in the United Kingdom which provides accommodation and support to homeless people aged 16–25.

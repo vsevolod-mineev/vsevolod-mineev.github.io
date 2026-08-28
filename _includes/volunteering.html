@@ -8,7 +8,7 @@
                 {{vol.role}}
             </div>
             <div class="organization">
-                {{vol.company}}
+                {% if vol.link %}<a href="{{vol.link}}" target="_blank" rel="noopener">{{vol.company}}</a>{% else %}{{vol.company}}{% endif %}
                 <span class="time">{{vol.time}}</span>
             </div>
             <div class="details">{{vol.details}}</div>    
