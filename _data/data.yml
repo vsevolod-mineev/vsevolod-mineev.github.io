@@ -43,6 +43,16 @@ skills:
       - Fundraising
       - Search Engine Optimisation
       - Content Creation
+      - Google Analytics
+      - Google Ads
+      - Google Tag Manager
+      - MixPanel
+      - SendGrid
+      - Twilio
+      - MailChimp
+      - Intercom
+      - FullStory
+      - Salesforce
   - category: Logistic
     skill:
       - Stock Management
@@ -106,15 +116,12 @@ skills:
       - AWS
       - Google Cloud
       - Firebase
-      - MixPanel
-      - SendGrid
-      - Twillio
-      - MailChimp
       - Git
       - Jira
       - MSAL
       - Docker
       - Kubernetes
+      - Terraform
 
   - category: Operating System
     skill:
