@@ -135,7 +135,7 @@ skills:
 
 # Profile
 profile: |
-  Seasoned software engineer with over ten years of experience, most recently at QOVES where I rose from Senior Backend Engineer to Product Officer, delivering an AI facial analysis platform, Stripe billing and mobile companion apps end to end. I am the perfect candidate for those who are looking to tap into the world of AI-driven content, analytics and automation. Some of my notable achievements include founding and scaling a startup, whilst raising £430,000 from 409 investors across 17 countries.
+  Seasoned software engineer with over ten years of experience, most recently at QOVES where I rose from Senior Backend Engineer to Product Officer, delivering an AI facial analysis platform, Stripe billing and mobile companion apps end to end. I am the perfect candidate for those who are looking to tap into the world of AI-driven content, analytics and automation. I am fluent in cloud infrastructure and infrastructure as code, running production workloads on AWS, Azure and Google Cloud with Docker, Kubernetes and Terraform.
 # Experience
 experience:
   - role: Product Officer
