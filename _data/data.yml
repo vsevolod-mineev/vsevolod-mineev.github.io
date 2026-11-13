@@ -67,6 +67,7 @@ skills:
       - FastAPI
       - NestJS
       - GraphQL
+      - PHP
       - Celery
       - C#
       - JavaScript
@@ -149,11 +150,12 @@ experience:
       🔘 Implemented Stripe billing end to end: subscription checkout, billing portal, pause and resume flows and signature-verified webhooks; designed the multi-tier pricing with a one-time premium tier and add-ons.<br>
       🔘 Developed iOS and Android companion apps across two generations: Flutter onboarding with QR invite scanning and photo upload, then React Native with Swift and Kotlin native modules for on-device face detection.<br>
       🔘 Customised and extended QOVES's in-house CRM on NestJS, GraphQL, PostgreSQL and Redis-backed queues: a Stripe sync pipeline with idempotent re-runs, safeguards against destructive runs and dry-run change plans, a batch update API with per-record refusals, and event-driven jobs with paced retries.<br>
+      🔘 Built features on the Laravel and PHP backend of Heklok, QOVES's internal time-tracking and workforce-monitoring platform: Google sign-in verified server-side against Google's JWKS, interval and report endpoints, a public privacy policy page and PHPUnit tests.<br>
       🔘 Discovered and reported vulnerabilities affecting QOVES's Kubernetes clusters, including a cross-tenant data exposure flaw; assessed severity and implications, and guided remediation within the hour.<br>
       🔘 Hardened the platform edge with CSP and HSTS security headers, request rate limiting and fail-fast secret validation.<br>
       🔘 As Product Officer, set product and technical direction: stack decisions, specifications and engineering roadmaps, plus internal tools including a real-time revenue and operations dashboard on live Stripe data.
     technologies_used: |
-      Python, Django, FastAPI, NestJS, GraphQL, Celery, Stripe, Supabase, PostgreSQL, Redis, React, TypeScript, React Native, Expo, Flutter, Swift, Kotlin, Docker, Kubernetes, AWS, Nginx, MediaPipe, OpenCV, Anthropic Claude.
+      Python, Django, FastAPI, NestJS, GraphQL, PHP, Celery, Stripe, Supabase, PostgreSQL, Redis, React, TypeScript, React Native, Expo, Flutter, Swift, Kotlin, Docker, Kubernetes, AWS, Nginx, MediaPipe, OpenCV, Anthropic Claude.
 
   - role: Senior Machine Learning Engineer
     time: 2023-2025
