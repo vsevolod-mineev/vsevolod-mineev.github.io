@@ -169,7 +169,7 @@ experience:
       🔘 Developed a suite of RESTful API endpoints to query and merge data from various sources, including Power Automate flows and custom SQL queries.<br>
       🔘 Constructed deployment pipelines with Azure DevOps, Git and Docker.
     technologies_used: |
-      Python, jQuery, C#, Flutter, Dart, Xcode, Android Studios, Azure (Web Apps, Secure Key Vaults, EntraID, SQL Server, Functions, IAM, Document Services, Container Registries), OpenAI, Flask, MSAL, Microsoft Graph API, SharePoint REST API, Pandas, Power Automate, Copilot Studios.
+      Python, jQuery, C#, Flutter, Dart, Xcode, Android Studios, Azure (Web Apps, Secure Key Vaults, EntraID, SQL Server, Functions, IAM, Document Services, Container Registries), Google Cloud (BigQuery), OpenAI, Flask, MSAL, Microsoft Graph API, SharePoint REST API, Pandas, Power Automate, Copilot Studios.
 
   - role: Administrative Associate
     time: 2022-2023
